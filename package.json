@@ -1,0 +1,30 @@
+{
+  "name": "subtitles-reader",
+  "version": "0.0.1",
+  "description": "Read all subtitles content from a directory",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plygrynd-jynkyrd/subtitles-reader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/plygrynd-jynkyrd/subtitles-reader/issues"
+  },
+  "homepage": "https://github.com/plygrynd-jynkyrd/subtitles-reader#readme",
+  "dependencies": {
+    "detect-character-encoding": "^0.8.0",
+    "subtitles-parser": "0.0.2"
+  }
+}
